@@ -29,7 +29,7 @@ namespace calculajuros.Controllers
             else
             {
                 CalculadoraJuros calc = new CalculadoraJuros();
-                return new string[] { "Calculadora de Taxa de juros", "Juros fixos em 1% ao mês ", "Valor de entrada: " + valorinicial, "Quantidade de Meses: " + meses,  "Valor após aplicado cálculo de juros: " + calc.CalculaJuros(Convert.ToDecimal(valorinicial), Convert.ToInt16(meses)).ToString() };
+                return new string[] {  calc.CalculaJuros(Convert.ToDecimal(valorinicial), Convert.ToInt16(meses)).ToString() };
             }
         }
     }
