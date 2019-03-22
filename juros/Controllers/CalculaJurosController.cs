@@ -10,7 +10,7 @@ using juros.calculadora;
 
 
 
-namespace calculajuros.Controllers
+namespace juros.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
