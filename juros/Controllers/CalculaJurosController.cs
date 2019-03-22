@@ -14,7 +14,7 @@ namespace calculajuros.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CalculaJurosController : ControllerBase
+    public class CalculaJurosController : Controller
     {
         //exemplo de entrada da especificação
         // api.../calculajuros?valorinicial=100&meses=5 Resultado esperado: 105,10
