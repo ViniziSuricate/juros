@@ -13,10 +13,10 @@ namespace juros.Controllers
     {
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
             // Retorno com link do repositório git da api
-            return new string[] { "https://github.com/ViniziSuricate/juros" };
+            return new string ( "https://github.com/ViniziSuricate/juros" );
         }
 
 

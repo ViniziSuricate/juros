@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  juros:
+    image: ${DOCKER_REGISTRY-}juros
+    build:
+      context: .
+      dockerfile: juros/Dockerfile

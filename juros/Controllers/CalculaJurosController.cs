@@ -21,15 +21,19 @@ namespace juros.Controllers
         // padrao da url de teste https://localhost:5001/api/calculajuros?valorinicial=100&meses=5
 
         // GET api/calculajuros
-        public ActionResult<IEnumerable<string>> Get(string valorinicial, string meses)
+        public decimal Get(decimal valorinicial, int meses)
         {
-
-            if (string.IsNullOrEmpty(valorinicial) || string.IsNullOrEmpty(meses))
-                return new string[] { "Faltam parâmetros de Entrada", "Entrar Valor Inicial e Meses para Calculo de Juros" };
+            if (valorinicial == 0 && meses == 0)
+                //string sem parametros de entrada
+                return -999999999;
+            else
+            if (valorinicial.ToString() == "" || meses.ToString() == "")
+                //Faltam parâmetros de Entrada, Entrar Valor Inicial e Meses para Calculo de Juros
+                return -999999999;
             else
             {
                 CalculadoraJuros calc = new CalculadoraJuros();
-                return new string[] {  calc.CalculaJuros(Convert.ToDecimal(valorinicial), Convert.ToInt16(meses)).ToString() };
+                return calc.CalculaJuros(valorinicial, meses);
             }
         }
     }

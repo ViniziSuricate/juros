@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "juros", "juros\juros.csproj", "{DF4E8AFA-22F9-489C-99AD-A6BBD40B0C37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "juros", "juros\juros.csproj", "{55A48CE8-EABD-4241-B6A6-17E793B41173}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9A96950B-F304-429D-9AED-057DF1E8BD1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF4E8AFA-22F9-489C-99AD-A6BBD40B0C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF4E8AFA-22F9-489C-99AD-A6BBD40B0C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF4E8AFA-22F9-489C-99AD-A6BBD40B0C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF4E8AFA-22F9-489C-99AD-A6BBD40B0C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A48CE8-EABD-4241-B6A6-17E793B41173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A48CE8-EABD-4241-B6A6-17E793B41173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A48CE8-EABD-4241-B6A6-17E793B41173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A48CE8-EABD-4241-B6A6-17E793B41173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A96950B-F304-429D-9AED-057DF1E8BD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A96950B-F304-429D-9AED-057DF1E8BD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A96950B-F304-429D-9AED-057DF1E8BD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A96950B-F304-429D-9AED-057DF1E8BD1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
