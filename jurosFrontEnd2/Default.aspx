@@ -22,7 +22,7 @@
             <br/><asp:TextBox id="txtResultado" name="txtResultado" runat="server"></asp:TextBox> 
             <br/>
         
-       </div>
+       </div> 
        
        <div style="background-color:lightgreen border:1px solid thin" runat="server">
             <br/>
